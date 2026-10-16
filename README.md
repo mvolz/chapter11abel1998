@@ -19,7 +19,7 @@ Corrected transcriptions of the chapter's tables, with charts and pooled rates b
 
 ### Tables 11.2 and 11.3 - prevalence of drinking before and during pregnancy
 
-![Tables 11.2 and 11.3 - during vs before pregnancy](output/charts/Tables%2011.2%20and%2011.3%20-%20during%20vs%20before%20pregnancy.png)
+![Tables 11.2 and 11.3 - during pregnancy drinking](output/charts/Tables%2011.2%20and%2011.3%20-%20during%20pregnancy%20drinking.png)
 
 ### Table 11.4 - FAS vs prevalence of heavy drinkers in region (not individual level data)
 
@@ -27,7 +27,7 @@ Corrected transcriptions of the chapter's tables, with charts and pooled rates b
 
 ![Table 11.4 - FAS rate by heavy drinkers with trends](output/charts/Table%2011.4%20-%20FAS%20rate%20by%20heavy%20drinkers%20with%20trends.png)
 
-Ecological comparison: each dot is one study. Its rate is all FAS cases in the study divided by the study's estimated number of heavy drinkers (Abel's estimate), not a rate observed in heavy-drinking women followed individually. The trend runs across studies and does not link any woman's own drinking to her own outcome.
+Ecological comparison: each dot is one study. Its rate is all FAS cases in the study divided by the study's estimated number of heavy drinkers (Abel's estimate), not a rate observed in heavy-drinking women followed individually. The trend runs across studies and does not link any woman's own drinking to her own outcome. The y value is also computed from the x value (cases divided by heavy-drinker share times sample size), so part of any downward slope is arithmetic rather than evidence.
 
 ![Table 11.4 - pooled FAS among heavy drinkers by region](output/charts/Table%2011.4%20-%20pooled%20FAS%20among%20heavy%20drinkers%20by%20region.png)
 

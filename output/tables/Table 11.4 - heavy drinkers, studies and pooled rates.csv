@@ -1,4 +1,4 @@
-Level,Region,Country,Place,Study (source),Studies,FAS cases,Heavy drinkers,"Rate per 1,000 heavy drinkers",95% CI low,95% CI high
+Level,Region,Country,Place,Study (source),Studies,FAS cases,Heavy drinkers,"Cases per 1,000 estimated heavy drinkers",95% CI low,95% CI high
 Study,Europe,Finland,Helsinki,"Halmesmaki, 1988",1,20,85,235.3,150.0,339.7
 Study,Europe,Finland,Helsinki,"Autti-Ramo et al., 1992",1,10,82,122.0,60.1,212.9
 Country pooled,Europe,Finland,,,2,30,167,179.6,124.6,246.4

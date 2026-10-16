@@ -1,4 +1,4 @@
-"""Pool estimated FAS incidence per 1,000 heavy drinkers by region (Abel 1998, Table 11.4).
+"""Pool FAS cases per 1,000 estimated heavy drinkers by region (Abel 1998, Table 11.4).
 
 Each study's rate is all its FAS cases divided by its estimated number of heavy
 drinkers (Abel's study-level estimate), not a rate observed in heavy-drinking
@@ -88,7 +88,7 @@ def build(studies):
 
 def write_csv(studies):
     header = ["Level", "Region", "Country", "Place", "Study (source)", "Studies", "FAS cases",
-              "Heavy drinkers", "Rate per 1,000 heavy drinkers", "95% CI low", "95% CI high"]
+              "Heavy drinkers", "Cases per 1,000 estimated heavy drinkers", "95% CI low", "95% CI high"]
 
     def line(level, region, country, place, study, group):
         cases, n = sum(s["cases"] for s in group), sum(s["heavy"] for s in group)
@@ -153,19 +153,19 @@ def chart(rows, studies, without_n):
     ax.set_ylim(-0.7, len(rows) - 0.3)
     ax.set_xlim(0, xmax)
     ax.grid(axis="y", visible=False)
-    ax.set_xlabel("Estimated FAS incidence per 1,000 heavy drinkers "
+    ax.set_xlabel("FAS cases per 1,000 estimated heavy drinkers "
                   "(all FAS cases / estimated number of heavy drinkers)", color=fas.INK_2,
                   fontsize=10)
 
     us = next(r for r in rows if r and r["name"] == "United States")
     eu = next(r for r in rows if r and r["name"] == "Europe")
-    fig.suptitle("Estimated FAS incidence per 1,000 heavy drinkers, pooled by region", x=0.03,
+    fig.suptitle("FAS cases per 1,000 estimated heavy drinkers, pooled by region", x=0.03,
                  y=0.965, ha="left",
                  fontsize=15, fontweight="bold", color=fas.INK)
     fig.text(0.03, 0.915,
              f"{len(studies)} of the {len(studies) + len(without_n)} studies in Abel (1998), Table 11.4 "
              "that give a number of heavy drinkers (number of studies in brackets).\nPooled rate = all "
-             "FAS cases / all estimated heavy drinkers - Abel's study-level estimate, not a rate observed "
+             "FAS cases, whoever the mother was, / all estimated heavy drinkers - a study-level ratio, not a rate observed "
              "in heavy-drinking women followed\nindividually; bars are exact 95% CIs. Per 1,000 "
              f"estimated heavy drinkers, Europe ({eu['rate']:.1f}) and the US ({us['rate']:.1f}) are "
              "almost identical. Europe's cases come from\nFinland, Hungary and Sweden.",

@@ -1,4 +1,4 @@
-"""Chart FAS incidence per 1,000 heavy drinkers by study (Abel 1998, Table 11.4).
+"""Chart FAS cases per 1,000 estimated heavy drinkers by study (Abel 1998, Table 11.4).
 
 Writes two images to output/charts/:
   1. Rate by study: every study's rate, grouped under country headings.
@@ -172,13 +172,14 @@ def chart_by_study(studies):
     ax.annotate(f"Pooled rate {pooled:.1f}", (pooled, len(rows) - 0.6),
                 xytext=(5, 0), textcoords="offset points", fontsize=8.5, color=INK_2,
                 va="top", bbox=LABEL_BOX)
-    ax.set_xlabel("Estimated FAS incidence per 1,000 heavy drinkers\n"
+    ax.set_xlabel("FAS cases per 1,000 estimated heavy drinkers\n"
                   "(all FAS cases in the study / its estimated number of heavy drinkers)",
                   color=INK_2, fontsize=10)
 
-    titles(fig, "Estimated FAS incidence per 1,000 heavy drinkers, by study",
+    titles(fig, "FAS cases per 1,000 estimated heavy drinkers, by study",
            f"{len(studies)} studies from Abel (1998), Table 11.4. Each rate is all FAS cases in the "
-           "study divided by its estimated number of heavy drinkers\n(Abel's study-level estimate; "
+           "study, whoever the mother was, divided by its estimated number of heavy\ndrinkers "
+           "(Abel's study-level estimate; "
            "not a rate observed in heavy-drinking women followed individually). Pooled rate = "
            f"{cases} cases /\n{heavy:,} estimated heavy drinkers = {pooled:.1f} per 1,000 "
            "(recomputed; the book's printed total of 3,761 does not match its column).")
@@ -274,7 +275,7 @@ def chart_by_heavy(studies, out_path=OUT_BY_HEAVY,
     ax.axhline(0, color=AXIS, linewidth=1, zorder=1)
     ax.set_xlabel("Percent of pregnant women in the study who drank heavily", color=INK_2,
                   fontsize=10)
-    ax.set_ylabel("Estimated FAS incidence per 1,000 heavy drinkers\n(all FAS cases in the study "
+    ax.set_ylabel("FAS cases per 1,000 estimated heavy drinkers\n(all FAS cases in the study "
                   "/ its estimated number of heavy drinkers)", color=INK_2, fontsize=10)
 
     def signed(v):
@@ -294,15 +295,15 @@ def chart_by_heavy(studies, out_path=OUT_BY_HEAVY,
                title_fontproperties={"size": 10, "weight": "bold"}, alignment="left")
 
     n_zero = sum(s["rate"] == 0 for s in plotted)
-    titles(fig, "Estimated FAS incidence per 1,000 heavy drinkers vs. percent drinking heavily "
-           "in pregnancy, across studies",
+    titles(fig, "FAS cases per 1,000 estimated heavy drinkers vs. the heavy-drinker share of each "
+           "study, across studies",
            f"{len(plotted)} of {len(studies)} studies from Abel (1998), Table 11.4; "
            f"{n_zero} of these reported no cases. Each dot is one study. y: all FAS cases in the "
-           "study divided by its estimated number of heavy drinkers (Abel's estimate;\nnot a rate "
-           "observed in heavy-drinking women followed individually). x: the share of the study's "
-           "pregnant women who drank heavily. The trends relate these study-level\nfigures to each "
-           "other - an ecological comparison - and do not link any woman's own drinking to her own "
-           f"outcome. {place_note}")
+           "study, whoever the mother was, divided by its estimated number of\nheavy drinkers; "
+           "x: the share of the study's pregnant women who drank heavily. y is computed from x "
+           "(cases / (x% \u00d7 sample size)), so a falling trend is partly built in: for a fixed\n"
+           "number of cases per birth, doubling x halves y. Not a rate observed in heavy-drinking "
+           f"women followed individually; trends are across studies (ecological). {place_note}")
     left_out = "; ".join(f'{s["place"]} ({s["study"]}, rate {s["rate"]:g})' for s in missing)
     fig.text(0.03, 0.022,
              f"Not shown: {len(missing)} studies that give no heavy-drinker percentage — "

@@ -1,10 +1,12 @@
 """Chart drinking before and during pregnancy (Abel 1998, Tables 11.2 and 11.3).
 
-Writes three images to output/charts/:
+Writes four images to output/charts/:
   1. Table 11.2 (countries other than the US and Canada): each study's
      prepregnancy and during-pregnancy percentages, joined by a line.
   2. Table 11.3 (United States and Canada): the same chart.
-  3. Both tables together: during-pregnancy % against prepregnancy % for the
+  3. Both tables in one chart of the same kind, every study sorted by its
+     during-pregnancy percentage.
+  4. Both tables together: during-pregnancy % against prepregnancy % for the
      studies that report both, with a "no change" diagonal.
 
 The CSVs copy the book's layout, where a blank site or reference means "same
@@ -33,6 +35,7 @@ CSV_11_2 = DATA / "Table 11.2.csv"
 CSV_11_3 = DATA / "Table 11.3.csv"
 OUT_11_2 = CHARTS / "Table 11.2 - drinking before and during pregnancy, outside US and Canada.png"
 OUT_11_3 = CHARTS / "Table 11.3 - drinking before and during pregnancy, US and Canada.png"
+OUT_ALL = CHARTS / "Tables 11.2 and 11.3 - drinking before and during pregnancy, all studies.png"
 OUT_BOTH = CHARTS / "Tables 11.2 and 11.3 - during vs before pregnancy.png"
 
 # Chart chrome (light mode), shared with fas_rates_chart.py.
@@ -136,7 +139,9 @@ def style_axes(ax):
 
 def titles(fig, title, subtitle, top=0.975):
     fig.suptitle(title, x=0.03, y=top, ha="left", fontsize=15, fontweight="bold", color=INK)
-    fig.text(0.03, top - 0.027, subtitle, ha="left", va="top", fontsize=9.5, color=INK_2)
+    # The gap below the title is a fixed 0.3 in, so tall figures do not open it up.
+    fig.text(0.03, top - 0.3 / fig.get_figheight(), subtitle, ha="left", va="top",
+             fontsize=9.5, color=INK_2)
 
 
 def mean(values):
@@ -225,12 +230,15 @@ def dumbbell(rows, average, table, title, out_path, sort_by_during=False):
 
     _, n_pre = mean(r["pre"] for r in rows)
     _, n_dur = mean(r["during"] for r in rows)
-    printed = PRINTED_AVERAGES[table]
+    printed = PRINTED_AVERAGES.get(table)
+    last = (f"The book prints these averages as {printed[0]:g}% and {printed[1]:g}%."
+            if printed else
+            "Table 11.2 covers countries other than the US and Canada; Table 11.3 covers the US "
+            "and Canada (its rows mark the study design).")
     titles(fig, title,
            f"{len(shown)} rows from {SOURCE}, {table}, {order}.\nDashed lines are the "
            f"unweighted means of the rows: {average[0]:g}% prepregnancy (n={n_pre}) and "
-           f"{average[1]:g}% during pregnancy (n={n_dur}).\nThe book prints these averages as "
-           f"{printed[0]:g}% and {printed[1]:g}%.", top=1 - 0.35 / height)
+           f"{average[1]:g}% during pregnancy (n={n_dur}).\n{last}", top=1 - 0.35 / height)
     fig.legend(handles=[
         Line2D([], [], marker="o", linestyle="", markersize=8, markerfacecolor=PRE_COLOUR,
                markeredgecolor=SURFACE, label="Prepregnancy"),
@@ -348,6 +356,12 @@ def main():
              OUT_11_2, sort_by_during=True)
     dumbbell(rows_3, avg_3, "Table 11.3",
              "Women who drink before and during pregnancy, US and Canada", OUT_11_3,
+             sort_by_during=True)
+    rows_all = rows_2 + rows_3
+    avg_all = tuple(round(sum(v) / len(v), 1) for v in
+                    ([r[k] for r in rows_all if r[k] is not None] for k in ("pre", "during")))
+    dumbbell(rows_all, avg_all, "Tables 11.2 and 11.3",
+             "Women who drink before and during pregnancy, all studies", OUT_ALL,
              sort_by_during=True)
     scatter_both(rows_2, avg_2, rows_3, avg_3)
 
