@@ -3,3 +3,7 @@ sources/book/
 sources/papers/
 
 __pycache__/
+
+# Experimental funnel plot of study sizes - kept locally, not published
+scripts/study_sizes_chart.py
+output/charts/Tables 11.1 and 11.4 - FAS rate vs study size.png
