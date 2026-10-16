@@ -146,15 +146,20 @@ def chart(matched, all_studies):
         ax.scatter(st["during"], st["rate"], s=12 + st["n"] / 60, color=c, alpha=0.35,
                    edgecolor=c, linewidth=0.8, zorder=2)
     # Label the studies with cases; offsets keep them clear of the pooled markers.
-    offsets = {"Detroit": (-10, 8, "right"), "Boston": (8, 6, "left")}
+    # Detroit's label sits directly above its (large) dot, on two lines, so it is not read as
+    # belonging to the North America pooled diamond to its left.
+    offsets = {"Detroit": (0, 13, "center", "bottom"), "Boston": (8, 6, "left", "center")}
     for st in matched:
         if st["cases"]:
-            dx, dy, ha = offsets.get(st["place"], (8, 6, "left"))
+            dx, dy, ha, va = offsets.get(st["place"], (8, 6, "left", "center"))
             if st["study"].startswith("Hingson"):
-                dx, dy, ha = (-8, -12, "left")
-            ax.annotate(f'{st["place"]} {st["study"].split(",")[1].strip()} ({st["cases"]}/{st["n"]:,})',
+                dx, dy, ha, va = (-8, -12, "left", "center")
+            year = st["study"].split(",")[1].strip()
+            sep = "\n" if st["place"] == "Detroit" else " "
+            ax.annotate(f'{st["place"]} {year}{sep}({st["cases"]}/{st["n"]:,})',
                         (st["during"], st["rate"]), xytext=(dx, dy), textcoords="offset points",
-                        ha=ha, fontsize=7.5, color=fas.MUTED, bbox=fas.LABEL_BOX, zorder=6)
+                        ha=ha, va=va, fontsize=7.5, color=fas.MUTED, bbox=fas.LABEL_BOX,
+                        zorder=6)
 
     # Pooled regions.
     summary = []

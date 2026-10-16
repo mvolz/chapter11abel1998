@@ -37,7 +37,6 @@ Seperate lines were calculated where the rate of drinking was calculated from th
 
 ![Table 11.1-11.3 - FAS vs drinking during pregnancy](output/charts/Table%2011.1-11.3%20-%20FAS%20vs%20drinking%20during%20pregnancy.png)
 
-
 ## Sources
 Abel, E. L. (1998), *Fetal Alcohol Abuse Syndrome*,
 ch. 11 "The American Paradox" (New York: Plenum Press), pp. 147-155.
