@@ -33,7 +33,7 @@ Ecological comparison: each dot is one study. Its rate is all FAS cases in the s
 
 ### Tables 11.1-11.3 - FAS incidence vs. prevalence of drinking during pregnancy
 
-Seperate lines were calculated where the rate of heavy drinking was calculated from the same or different studies. 
+Seperate lines were calculated where the rate of drinking was calculated from the same or different studies. 
 
 ![Table 11.1-11.3 - FAS vs drinking during pregnancy](output/charts/Table%2011.1-11.3%20-%20FAS%20vs%20drinking%20during%20pregnancy.png)
 
