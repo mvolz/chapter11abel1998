@@ -15,6 +15,8 @@ Corrected transcriptions of the chapter's tables, with charts and pooled rates b
 
 ![Table 11.1 - FAS rate per 1,000 births by study](output/charts/Table%2011.1%20-%20FAS%20rate%20per%201%2C000%20births%20by%20study.png)
 
+![Table 11.1 - FAS rate per 1,000 births by study, ranked](output/charts/Table%2011.1%20-%20FAS%20rate%20per%201%2C000%20births%20by%20study%2C%20ranked.png)
+
 ![Table 11.1 - pooled FAS incidence by region](output/charts/Table%2011.1%20-%20pooled%20FAS%20incidence%20by%20region.png)
 
 ### Tables 11.2 and 11.3 - prevalence of drinking before and during pregnancy
