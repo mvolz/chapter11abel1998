@@ -1,9 +1,9 @@
 Level,Region,Country,Place,Study (source),Studies,FAS cases,Births,"Rate per 1,000",95% CI low,95% CI high
-Study,Europe,Sweden,,"Larsson, 1983",1,1,464,2.16,0.05,11.95
-Study,Europe,Sweden,,"Larsson et al., 1983",1,1,669,1.49,0.04,8.30
+Study,Europe,Sweden,Stockholm,"Larsson, 1983",1,1,464,2.16,0.05,11.95
+Study,Europe,Sweden,Stockholm,"Larsson et al., 1983",1,1,669,1.49,0.04,8.30
 Country pooled,Europe,Sweden,,,2,2,1133,1.77,0.21,6.36
 Study,Europe,Denmark,Odense,"Ogston & Parry, 1992",1,0,286,0.00,0.00,12.82
-Study,Europe,United Kingdom,London?,"Wright et al., 1983",1,0,900,0.00,0.00,4.09
+Study,Europe,United Kingdom,London,"Wright et al., 1983",1,0,900,0.00,0.00,4.09
 Study,Europe,United Kingdom,Edinburgh,"Plant, 1985",1,0,1008,0.00,0.00,3.65
 Study,Europe,United Kingdom,London,"Waterson & Murray-Lyon, 1989",1,0,2266,0.00,0.00,1.63
 Study,Europe,United Kingdom,Southampton,"Primatesta et al., 1993",1,0,996,0.00,0.00,3.70
@@ -19,7 +19,7 @@ Study,Europe,Spain,Vizcaya/Guipuzcoa,"Ogston & Parry, 1992",1,0,866,0.00,0.00,4.
 Study,Europe,Spain,Vizcaya/Guipuzcoa,"Ogston & Parry, 1992",1,0,793,0.00,0.00,4.64
 Country pooled,Europe,Spain,,,3,0,2663,0.00,0.00,1.38
 Study,Europe,Switzerland,Aarau,"Fricker et al., 1985",1,0,996,0.00,0.00,3.70
-Study,Europe,Switzerland,,"Halperin et al., 1985",1,0,541,0.00,0.00,6.80
+Study,Europe,Switzerland,Geneva,"Halperin et al., 1985",1,0,541,0.00,0.00,6.80
 Country pooled,Europe,Switzerland,,,2,0,1537,0.00,0.00,2.40
 Region pooled,Europe,Europe excluding Sweden,,,16,2,17633,0.11,0.01,0.41
 Region pooled,Europe,,,,18,4,18766,0.21,0.06,0.55
@@ -34,10 +34,10 @@ Study,North America,United States,Southern California,"Kuzma & Sokol, 1982",1,0,
 Study,North America,United States,Pittsburgh,"Day et al., 1989",1,0,595,0.00,0.00,6.18
 Study,North America,United States,Pittsburgh,"Cornelius et al., 1994",1,0,391,0.00,0.00,9.39
 Study,North America,United States,Seattle,"Hanson et al., 1978",1,2,1529,1.31,0.16,4.72
-Study,North America,United States,Seattle,"Little, 1977",1,0,801,0.00,0.00,4.59
-Country pooled,North America,United States,,,12,91,46497,1.96,1.58,2.40
+Study,North America,United States,Seattle,"Little, 1977",1,0,263,0.00,0.00,13.93
+Country pooled,North America,United States,,,12,91,45959,1.98,1.59,2.43
 Study,North America,Canada,Ottawa,"Fried & O'Connell, 1987",1,0,600,0.00,0.00,6.13
-Region pooled,North America,,,,13,91,47097,1.93,1.56,2.37
+Region pooled,North America,,,,13,91,46559,1.95,1.57,2.40
 Study,Australia,Australia,Victoria (state),"Bell & Lumley, 1989",1,0,8884,0.00,0.00,0.42
 Study,Australia,Australia,Adelaide,"Gibson et al., 1983",1,0,7301,0.00,0.00,0.51
 Study,Australia,Australia,Tasmania (state),"Lumley et al., 1985",1,0,14923,0.00,0.00,0.25
@@ -45,4 +45,4 @@ Study,Australia,Australia,Perth,"Walpole et al., 1990",1,0,605,0.00,0.00,6.08
 Country pooled,Australia,Australia,,,4,0,31713,0.00,0.00,0.12
 Region pooled,Australia,,,,4,0,31713,0.00,0.00,0.12
 Overall pooled,All studies except the US,,,,23,4,51079,0.08,0.02,0.20
-Overall pooled,All studies,,,,35,95,97576,0.97,0.79,1.19
+Overall pooled,All studies,,,,35,95,97038,0.98,0.79,1.20

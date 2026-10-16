@@ -33,7 +33,7 @@ United States,Loma Linda,"Kuzma & Sokol, 1982",,Caucasian/middle class,5093,0,0.
 United States,Pittsburgh,"Day et al., 1989",,Low SES (50% African American),595,0,0.00,,
 United States,Pittsburgh,"Cornelius et al., 1994",,Low SES,391,0,0.00,FAS cases footnote j (Cornelius: personal communication),
 United States,Seattle,"Hanson et al., 1978",,Caucasian/middle class,1529,2,1.31,"Study footnote ** (Source: E. L. Abel, An update on incidence of FAS: FAS is not an equal opportunity birth defect, Neurotoxicology and Teratology (1995), 17, 438)",
-United States,Seattle,"Little, 1977",,Caucasian/middle class,801,0,0.00,,"Misprint: printed ""Causcasian"""
+United States,Seattle,"Little, 1977",,Caucasian/middle class,263,0,0.00,,"Misprint: printed ""Causcasian""; Sample size changed from 801 (printed) to 263: 801 women agreed to take part, but the paper examined for FAS only the analysed sample of 263 infants (""all were examined for fetal alcohol syndrome ... No cases of the syndrome were found""; Little 1977, Results). The 0 cases therefore rest on 263 births, not 801; see sources/papers/ (little1977.pdf)"
 Number of FAS cases Totals,,,,,,95.00,,,"Checked: 95 cases in 97,576 births across 35 studies - matches"
 "Rate per 1,000",,,,,,0.97,,,"Checked: 95 / 97,576 x 1,000 = 0.97 - matches"
 "Average rate per study (based on estimated incidence per 1,000)",,,,,,0.50,,,Recomputed with the corrected rates: 0.495; printed 0.50 (0.495 with the printed rates)
