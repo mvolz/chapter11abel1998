@@ -1,0 +1,29 @@
+Study site,"Design (P=Prospective, R=Retrospective)",Prepregnancy %,During pregnancy %,Reference,Corrections
+Northern California (USA),P,,47.0,"Mills & Graubard, 1987 [a]","Country added: printed ""Northern California""; (USA) added"
+,,,48.0,,
+Southern California (USA),R,,51.0,"Kuzma & Kissinger, 1981","Country added: printed ""Southern California""; (USA) added"
+"Ottawa, Ontario (Canada)",P,95,82.0,"Fried et al., 1980","Reformatted: printed ""Canada, Ontario (Ottawa)""; written as City, Province (Country)"
+,,97,83.0,"Fried et al., 1984",
+"Denver, Colorado (USA)",P,,61.0,"Tennes & Blackard, 1980","Country added: printed ""Colorado (Denver)""; written as City, State (USA)"
+"Baltimore, Maryland (USA)",P,45,29.0,"Fox et al., 1987","Country added: printed ""Maryland (Baltimore)""; written as City, State (USA)"
+"Detroit, Michigan (USA)",P,,91.2,"Sokol et al., 1989","Misprint: printed ""Michigan (Detriot)""; corrected to Detroit; reordered as City, State (USA)"
+"Boston, Massachusetts (USA)",,,48.0,"Ouellette et al., 1977","Country added: printed ""Massachusetts (Boston)""; written as City, State (USA)"
+,,,,"Weiner et al., 1983",
+"Boston, Massachusetts (USA)",R,,35.0,"Hingson et al., 1982","Country added: printed ""Massachusetts (Boston)""; written as City, State (USA)"
+,,,23.0,"Marbury et al., 1983",
+"Jackson, Mississippi (USA)",,53,28.0,"Stephens, 1985","Country added: printed ""Mississippi (Jackson)""; written as City, State (USA)"
+"Callaway County, Missouri (USA)",R,49,23.0,"Kruse et al., 1986","Misprint: printed ""Missouri (Calaway County)""; corrected to Callaway County; reordered as City, State (USA)"
+New York (USA),,,,"Kline et al., 1980","Country added: printed ""New York""; (USA) added"
+"New York City, New York (USA)",,,72.0,"Kline et al., 1987","Country added: printed ""New York (New York City)""; written as City, State (USA)"
+"Buffalo, New York (USA)",,,,"Russell & Bigler, 1979","Country added: printed ""New York (Buffalo)""; written as City, State (USA)"
+"Cleveland, Ohio (USA)",P,,,"Sokol et al., 1986","Country added: printed ""Ohio (Cleveland)""; written as City, State (USA)"
+"Cleveland, Ohio (USA)",,,,"Sokol et al., 1980","Country added: printed ""Ohio (Cleveland)""; written as City, State (USA)"
+"Philadelphia, Pennsylvania (USA)",P,,13.0,"Brooten et al., 1987","Country added: printed ""Pennsylvania (Philadelphia)""; written as City, State (USA)"
+"Pittsburgh, Pennsylvania (USA)",,86,60.0,"Cornelius et al., 1994","Country added: printed ""Pennsylvania (Pittsburgh)""; written as City, State (USA)"
+"Seattle, Washington (USA)",,,,"Little, 1977","Country added: printed ""Washington (Seattle)""; written as City, State (USA)"
+,,80,81.0,"Streissguth et al., 1977",
+"Seattle, Washington (USA)",P,65,42.0,"Streissguth et al., 1983b","Country added: printed ""Washington (Seattle)""; written as City, State (USA)"
+USA (national),P,,25.1,"Serdula et al., 1991","Clarified: printed ""USA""; marked as national"
+USA (national),R,53,,"Bruce et al., 1993","Clarified: printed ""USA""; marked as national"
+,,55,39.2,"Prager et al., 1983","Misprint: author printed ""Praeger""; corrected to Prager (K. Prager)"
+Average,,67.8,49.1,,"Recomputed as the unweighted mean of the rows (n=10 prepregnancy, n=20 during); printed 68 and 49"

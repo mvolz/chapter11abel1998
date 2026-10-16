@@ -1,0 +1,5 @@
+# Copyrighted source documents - kept locally only (citations in README.md)
+sources/book/
+sources/papers/
+
+__pycache__/

@@ -1,0 +1,41 @@
+Rank,Study site,Country,Region,Reference,Design,Prepregnancy %,During pregnancy %,Source table
+1,"Philadelphia, Pennsylvania (USA)",USA,North America,"Brooten et al., 1987",Prospective,,13,Table 11.3
+2,"Boston, Massachusetts (USA)",USA,North America,"Marbury et al., 1983",Retrospective,,23,Table 11.3
+3,"Callaway County, Missouri (USA)",USA,North America,"Kruse et al., 1986",Retrospective,49,23,Table 11.3
+4,USA (national),USA,North America,"Serdula et al., 1991",Prospective,,25.1,Table 11.3
+5,"Jackson, Mississippi (USA)",USA,North America,"Stephens, 1985",,53,28,Table 11.3
+6,"Baltimore, Maryland (USA)",USA,North America,"Fox et al., 1987",Prospective,45,29,Table 11.3
+7,Italy,Italy,Europe,"Bonati & Fellin, 1991",,35,29.4,Table 11.2
+8,"Boston, Massachusetts (USA)",USA,North America,"Hingson et al., 1982",Retrospective,,35,Table 11.3
+9,Vizcaya (Spain),Spain,Europe,"Ogston & Parry, 1992",,,35.3,Table 11.2
+10,Melbourne (Australia),Australia,Australia/NZ,"Bell & Lumley, 1989",,,36.2,Table 11.2
+11,USA (national),USA,North America,"Prager et al., 1983",Retrospective,55,39.2,Table 11.3
+12,Dunedin (New Zealand),New Zealand,Australia/NZ,"Counsell et al., 1994 (R)",,,41.6,Table 11.2
+13,"Seattle, Washington (USA)",USA,North America,"Streissguth et al., 1983b",Prospective,65,42,Table 11.3
+14,Guipuzcoa (Spain),Spain,Europe,"Ogston & Parry, 1992",,,42.1,Table 11.2
+15,Sydney (Australia),Australia,Australia/NZ,"Kesby et al., 1991",,79,43,Table 11.2
+16,Northern California (USA),USA,North America,"Mills & Graubard, 1987 [a]",Prospective,,47,Table 11.3
+17,"Boston, Massachusetts (USA)",USA,North America,"Ouellette et al., 1977",,,48,Table 11.3
+18,Northern California (USA),USA,North America,"Mills & Graubard, 1987 [a]",Prospective,,48,Table 11.3
+19,Roubaix (France),France,Europe,"Ogston & Parry, 1992",,61.1,48.5,Table 11.2
+20,London (UK),UK,Europe,"Peacock et al., 1990",,,49,Table 11.2
+21,London (UK),UK,Europe,"Brooke et al., 1989",,,50,Table 11.2
+22,Netherlands,Netherlands,Europe,"Ogston & Parry, 1992",,77.2,50.9,Table 11.2
+23,Southern California (USA),USA,North America,"Kuzma & Kissinger, 1981",Retrospective,,51,Table 11.3
+24,Valencia (Spain),Spain,Europe,"Bolumar et al., 1994",,,52.8,Table 11.2
+25,Porto (Portugal),Portugal,Europe,"Ogston & Parry, 1992",,,53.5,Table 11.2
+26,Southampton (UK),UK,Europe,"Primatesta et al., 1993",,80,54,Table 11.2
+27,Dundee (UK),UK,Europe,"Sulaiman et al., 1988",,90,55,Table 11.2
+28,London (UK),UK,Europe,"Grisso et al., 1984",,81,55,Table 11.2
+29,London (UK),UK,Europe,"Waterson & Murray-Lyon, 1989",,88,56,Table 11.2
+30,Tasmania (Australia),Australia,Australia/NZ,"Lumley et al., 1985",,,57,Table 11.2
+31,"Pittsburgh, Pennsylvania (USA)",USA,North America,"Cornelius et al., 1994",,86,60,Table 11.3
+32,"Denver, Colorado (USA)",USA,North America,"Tennes & Blackard, 1980",Prospective,,61,Table 11.3
+33,Berlin (Germany),Germany,Europe,"Ogston & Parry, 1992",,,61.6,Table 11.2
+34,"New York City, New York (USA)",USA,North America,"Kline et al., 1987",,,72,Table 11.3
+35,Milan (Italy),Italy,Europe,"Primatesta et al., 1993",,79,78,Table 11.2
+36,Odense (Denmark),Denmark,Europe,"Ogston & Parry, 1992",,,78,Table 11.2
+37,"Seattle, Washington (USA)",USA,North America,"Streissguth et al., 1977",,80,81,Table 11.3
+38,"Ottawa, Ontario (Canada)",Canada,North America,"Fried et al., 1980",Prospective,95,82,Table 11.3
+39,"Ottawa, Ontario (Canada)",Canada,North America,"Fried et al., 1984",Prospective,97,83,Table 11.3
+40,"Detroit, Michigan (USA)",USA,North America,"Sokol et al., 1989",Prospective,,91.2,Table 11.3

@@ -1,0 +1,20 @@
+Region,Country,Place,FAS study (Table 11.1),FAS cases,Births,"FAS per 1,000",Drinking during pregnancy %,Drinking source (Table 11.2/11.3),Link,Note
+Australia,Australia,Victoria (state),"Bell & Lumley, 1989",0,8884,0.00,36.2,"Melbourne (Australia): Bell & Lumley, 1989",exact,
+Australia,Australia,Tasmania (state),"Lumley et al., 1985",0,14923,0.00,57,"Tasmania (Australia): Lumley et al., 1985",exact,
+Europe,Denmark,Odense,"Ogston & Parry, 1992",0,286,0.00,78,"Odense (Denmark): Ogston & Parry, 1992",exact,Sample selected for drinking (Bolumar 1992)
+Europe,France,Roubaix,"Rostand et al., 1990",2,684,2.92,48.5,"Roubaix (France): Ogston & Parry, 1992",extended,"Same Roubaix maternity hospital, INSERM, 1985-86; drinking from Ogston & Parry"
+Europe,Germany,Berlin,"Ogston & Parry, 1992",0,999,0.00,61.6,"Berlin (Germany): Ogston & Parry, 1992",exact,Verified against Ogston & Parry 1992 (not swapped)
+Europe,Italy,Milan,"Primatesta et al., 1993",0,1516,0.00,78,"Milan (Italy): Primatesta et al., 1993",exact,
+Europe,Netherlands,,"Verkerk et al., 1993",0,3447,0.00,50.9,"Netherlands: Ogston & Parry, 1992",extended,"Same 3,447-woman national survey (Bolumar 1992); drinking from Ogston & Parry"
+Europe,Portugal,Porto,"Ogston & Parry, 1992",0,430,0.00,53.5,"Porto (Portugal): Ogston & Parry, 1992",exact,
+Europe,Spain,Valencia,"Bolumar et al., 1994",0,1004,0.00,52.8,"Valencia (Spain): Bolumar et al., 1994",exact,
+Europe,Spain,Vizcaya,"Ogston & Parry, 1992",0,866,0.00,35.3,"Vizcaya (Spain): Ogston & Parry, 1992",exact,Centre identified by sample size (Ogston & Parry 1992)
+Europe,Spain,Guipuzcoa,"Ogston & Parry, 1992",0,793,0.00,42.1,"Guipuzcoa (Spain): Ogston & Parry, 1992",exact,Centre identified by sample size (Ogston & Parry 1992)
+Europe,United Kingdom,Southampton,"Primatesta et al., 1993",0,996,0.00,54,"Southampton (UK): Primatesta et al., 1993",exact,
+Europe,United Kingdom,Dundee,"Sulaiman et al., 1988",0,901,0.00,55,"Dundee (UK): Sulaiman et al., 1988",exact,
+Europe,United Kingdom,London,"Waterson & Murray-Lyon, 1989",0,2266,0.00,56,"London (UK): Waterson & Murray-Lyon, 1989",exact,Overall London figure (88/56)
+North America,United States,Pittsburgh,"Cornelius et al., 1994",0,391,0.00,60,"Pittsburgh, Pennsylvania (USA): Cornelius et al., 1994",exact,
+North America,United States,Boston,"Hingson et al., 1982",1,1690,0.59,35,"Boston, Massachusetts (USA): Hingson et al., 1982",exact,
+North America,United States,Boston,"Ouellette et al., 1977",1,633,1.58,48,"Boston, Massachusetts (USA): Ouellette et al., 1977",exact,
+North America,United States,Detroit,"Sokol et al., 1993",57,14707,3.88,91.2,"Detroit, Michigan (USA): Sokol et al., 1989",extended,Same Detroit (Hutzel) cohort; drinking from Sokol 1989
+North America,United States,Denver,"Tennes & Blackard, 1980",0,278,0.00,61,"Denver, Colorado (USA): Tennes & Blackard, 1980",exact,

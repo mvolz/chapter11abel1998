@@ -1,0 +1,32 @@
+City/Country,Prepregnancy %,During pregnancy %,Reference,Corrections,Notes
+Netherlands,77.2,50.9,"Ogston & Parry, 1992","Misprint: during-pregnancy figure printed 51.9; source gives 50.9 (1,378 of 2,808 abstained in early pregnancy) - Ogston & Parry, Int J Epidemiol 21 Suppl 1:S45-S71, 1992, Tables 6-7",
+Netherlands,78.0,,"Verkerk et al., 1993",,
+Roubaix (France),61.1,48.5,"Ogston & Parry, 1992",,
+Valencia (Spain),72.7,52.8,"Bolumar et al., 1994",,Not checked: Bolumar (1992) confirms Valencia was a EUROMAC centre but gives no drinking percentages; the cited 1994 paper is a different source; Before-pregnancy figure not comparable with the during-pregnancy figure: EUROMAC took during-pregnancy drinking from a diary of the week before interview but asked about before-pregnancy drinking differently (Ogston & Parry 1992; Bolumar 1992). Left out of the charts
+Vizcaya (Spain),60.0,35.3,"Ogston & Parry, 1992","Added country; printed ""Vizcaya"". Bolumar (1992), the EUROMAC methods chapter, lists the centres Vizcaya and Guipuzcoa (Spain)",Before-pregnancy figure not comparable with the during-pregnancy figure: EUROMAC took during-pregnancy drinking from a diary of the week before interview but asked about before-pregnancy drinking differently (Ogston & Parry 1992; Bolumar 1992). Left out of the charts
+Guipuzcoa (Spain),72.0,42.1,"Ogston & Parry, 1992","Misprint: printed ""Guipuzoa"". Spelling and country from the chapter text and Bolumar (1992), which name the Spanish EUROMAC centre Guipuzcoa",Before-pregnancy figure not comparable with the during-pregnancy figure: EUROMAC took during-pregnancy drinking from a diary of the week before interview but asked about before-pregnancy drinking differently (Ogston & Parry 1992; Bolumar 1992). Left out of the charts
+Odense (Denmark),71.0,78.0,"Ogston & Parry, 1992","Misprint: printed ""Odessa"". Odessa was not a EUROMAC centre; the chapter text and Bolumar (1992) list Odense, Denmark; Misprint: during-pregnancy figure printed 68.0; source gives 78.0 (63 of 286 abstained in early pregnancy) - Ogston & Parry, Int J Epidemiol 21 Suppl 1:S45-S71, 1992, Tables 6-7",Before-pregnancy figure not comparable with the during-pregnancy figure: EUROMAC took during-pregnancy drinking from a diary of the week before interview but asked about before-pregnancy drinking differently (Ogston & Parry 1992; Bolumar 1992). Left out of the charts
+Berlin (Germany),37.6,61.6,"Ogston & Parry, 1992",,"Verified against the source: 62.4% abstained before pregnancy (612/981) and 38.4% in early pregnancy (384/999) - Ogston & Parry, Int J Epidemiol 21 Suppl 1:S45-S71, 1992, Tables 6-7. Not swapped; the authors attribute the rise to occasional drinking that went unrecorded before pregnancy but appeared in the detailed diary of the week before interview; Before-pregnancy figure not comparable with the during-pregnancy figure: EUROMAC took during-pregnancy drinking from a diary of the week before interview but asked about before-pregnancy drinking differently (Ogston & Parry 1992; Bolumar 1992). Left out of the charts"
+Porto (Portugal),59.7,53.5,"Ogston & Parry, 1992","Added country; printed ""Porto"", for consistency with the other rows",Before-pregnancy figure not comparable with the during-pregnancy figure: EUROMAC took during-pregnancy drinking from a diary of the week before interview but asked about before-pregnancy drinking differently (Ogston & Parry 1992; Bolumar 1992). Left out of the charts
+London (UK),81.0,55.0,"Grisso et al., 1984","Misprint: printed ""Griso"". The author is J. A. Grisso",
+European,90.0,58.0,"Waterson & Murray-Lyon, 1989",,
+Afro-Caribbean,75.0,31.0,,"Abbreviation expanded; printed ""Afr-Caribbean""",
+East Asian,56.0,29.0,,"Term updated; printed ""Oriental""",
+South Asian,47.0,18.0,,"Term updated; printed ""Asian""",
+Dundee (UK),90.0,55.0,"Sulaiman et al., 1988",,
+London (UK),,49.0,"Peacock et al., 1990",,
+London (UK),,50.0,"Brooke et al., 1989",,
+London (UK),88.0,56.0,"Waterson & Murray-Lyon, 1989",,
+Edinburgh (UK),92.0,,"Plant, 1984",,
+Southampton (UK),80.0,54.0,"Primatesta et al., 1993",,
+Adelaide (Australia),74.5,,"Gibson et al., 1983",,
+Italy,37.0,,"Lazzaroni et al., 1993",,
+Italy,35.0,29.4,"Bonati & Fellin, 1991",,
+Melbourne (Australia),,36.2,"Bell & Lumley, 1989",,
+Sydney (Australia),79.0,43.0,"Kesby et al., 1991",,
+Dunedin (New Zealand),,41.6,"Counsell et al., 1994 (R)",,
+Milan (Italy),79.0,78.0,"Primatesta et al., 1993",,
+Tasmania (Australia),,57.0,"Lumley et al., 1985",,
+Copenhagen (Denmark),70.0,,"Rubin et al., 1988 (R)",,
+Belgium,52.0,,"Lodewijckx & DeGroof, 1990 (R)",,
+Average,68.6,48.5,,"Recomputed as the unweighted mean of the rows above (n=25 prepregnancy, n=24 during), after the Netherlands and Odense corrections; printed 69.0 and 49.0",
