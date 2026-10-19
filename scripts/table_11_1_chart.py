@@ -6,7 +6,7 @@ with the pooled rate across all studies.
 
 Reads the corrected "Table 11.1.csv" (rates recomputed from cases / births).
 Places come from the City column of "Table 11.4.csv" (Table 11.1 prints only
-countries outside the US); "?" marks an unverified place.
+countries outside the US).
 
 Usage: python3 table_11_1_chart.py   (reads the CSVs in data/)
 """
@@ -122,7 +122,7 @@ def chart_by_study(studies):
                f"{len(studies)} studies from Abel (1998), Table 11.1. Pooled rate = {cases} cases / "
                f"{births:,} births = {pooled:.2f} per 1,000. Grey numbers: FAS cases / births.\n"
                "Studies with 0 cases still have an upper bound: small samples cannot rule out "
-               "rates of several per 1,000.\nPlaces from Table 11.4.csv; '?' = unverified.")
+               "rates of several per 1,000.\nPlaces from Table 11.4.csv.")
     fig.savefig(OUT_BY_STUDY, dpi=150, facecolor=SURFACE)
     plt.close(fig)
     print(f"Saved {OUT_BY_STUDY}")

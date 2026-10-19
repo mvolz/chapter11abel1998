@@ -227,8 +227,8 @@ def spread_labels(xs, gap):
 
 def chart_by_heavy(studies, out_path=OUT_BY_HEAVY,
                    place_note="Dots show where each study was done:\nthe city, or the state "
-                              "where a study covered a whole state; the country where unknown; "
-                              "'?' = unverified (see 'Table 11.4 - study locations.csv')."):
+                              "where a study covered a whole state; the country where unknown "
+                              "(see 'Table 11.4 - study locations.csv')."):
     plotted = [s for s in studies if s["heavy_pct"] is not None]
     missing = [s for s in studies if s["heavy_pct"] is None]
 
