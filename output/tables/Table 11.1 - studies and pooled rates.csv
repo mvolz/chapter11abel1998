@@ -24,7 +24,7 @@ Country pooled,Europe,Switzerland,,,2,0,1537,0.00,0.00,2.40
 Region pooled,Europe,Europe excluding Sweden,,,16,2,17633,0.11,0.01,0.41
 Region pooled,Europe,,,,18,4,18766,0.21,0.06,0.55
 Study,North America,United States,Boston,"Hingson et al., 1982",1,1,1690,0.59,0.01,3.29
-Study,North America,United States,Boston,"Ouellette et al., 1977",1,1,633,1.58,0.04,8.77
+Study,North America,United States,Boston,"Ouellette et al., 1977",1,1,322,3.11,0.08,17.18
 Study,North America,United States,Boston,"Rosett et al., 1978",1,0,322,0.00,0.00,11.39
 Study,North America,United States,Cleveland,"Sokol et al., 1980",1,5,12127,0.41,0.13,0.96
 Study,North America,United States,Cleveland,"Sokol et al., 1986",1,25,8331,3.00,1.94,4.43
@@ -35,9 +35,9 @@ Study,North America,United States,Pittsburgh,"Day et al., 1989",1,0,595,0.00,0.0
 Study,North America,United States,Pittsburgh,"Cornelius et al., 1994",1,0,391,0.00,0.00,9.39
 Study,North America,United States,Seattle,"Hanson et al., 1978",1,2,1529,1.31,0.16,4.72
 Study,North America,United States,Seattle,"Little, 1977",1,0,263,0.00,0.00,13.93
-Country pooled,North America,United States,,,12,91,45959,1.98,1.59,2.43
+Country pooled,North America,United States,,,12,91,45648,1.99,1.61,2.45
 Study,North America,Canada,Ottawa,"Fried & O'Connell, 1987",1,0,600,0.00,0.00,6.13
-Region pooled,North America,,,,13,91,46559,1.95,1.57,2.40
+Region pooled,North America,,,,13,91,46248,1.97,1.58,2.42
 Study,Australia,Australia,Victoria (state),"Bell & Lumley, 1989",1,0,8884,0.00,0.00,0.42
 Study,Australia,Australia,Adelaide,"Gibson et al., 1983",1,0,7301,0.00,0.00,0.51
 Study,Australia,Australia,Tasmania (state),"Lumley et al., 1985",1,0,14923,0.00,0.00,0.25
@@ -45,4 +45,4 @@ Study,Australia,Australia,Perth,"Walpole et al., 1990",1,0,605,0.00,0.00,6.08
 Country pooled,Australia,Australia,,,4,0,31713,0.00,0.00,0.12
 Region pooled,Australia,,,,4,0,31713,0.00,0.00,0.12
 Overall pooled,All studies except the US,,,,23,4,51079,0.08,0.02,0.20
-Overall pooled,All studies,,,,35,95,97038,0.98,0.79,1.20
+Overall pooled,All studies,,,,35,95,96727,0.98,0.79,1.20
