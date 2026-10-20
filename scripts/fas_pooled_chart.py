@@ -152,7 +152,7 @@ def chart(rows):
     fig.text(0.03, 0.025, "Rates for the two Larsson studies and Sokol et al., 1993 are recomputed "
              "from cases / births (see Corrections in Table 11.1.csv).\nEurope = all Table 11.1 "
              "countries outside North America and Australia; Finland is not in Table 11.1. Sweden's and Canada's CIs run to 6.36 and 6.13, past the "
-             "edge of the axis.", ha="left", fontsize=8, color=fas.MUTED)
+             "edge of the axis.\n" + t11.duplicates_note(), ha="left", fontsize=8, color=fas.MUTED)
     fig.savefig(OUT_PNG, dpi=150, facecolor=fas.SURFACE)
     plt.close(fig)
     print(f"Saved {OUT_PNG}")

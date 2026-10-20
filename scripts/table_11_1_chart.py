@@ -46,13 +46,22 @@ def load_places():
     return places
 
 
+DUPLICATES = []  # (study, duplicate of) rows skipped by load_studies()
+
+
 def load_studies():
+    """Studies in Table 11.1, skipping rows marked as a duplicate of another row
+    (the same cohort published twice; see the Corrections column)."""
     places = load_places()
     studies = []
+    DUPLICATES.clear()
     with open(CSV_PATH, newline="", encoding="utf-8") as f:
         for r in csv.DictReader(f):
             if not r["Study (source)"]:
                 continue  # summary rows
+            if r.get("Duplicate of"):
+                DUPLICATES.append((r["Study (source)"], r["Duplicate of"]))
+                continue
             country = r["Country"]
             found = places.get((country, r["Study (source)"]), [])
             place = found.pop(0) if found else r["City"]
@@ -67,6 +76,14 @@ def load_studies():
                 "ci": exact_ci(cases, n),
             })
     return studies
+
+
+def duplicates_note():
+    """Footnote text for rows left out as duplicates of another row."""
+    if not DUPLICATES:
+        return ""
+    return "Left out as the same cohort published twice: " + "; ".join(
+        f"{dup} (= {of})" for dup, of in DUPLICATES) + "."
 
 
 def chart_by_study(studies):
@@ -108,7 +125,7 @@ def chart_by_study(studies):
             tick.set_fontweight("bold")
             tick.set_color(INK)
     ax.set_ylim(-0.7, len(rows) - 0.3)
-    ax.set_xlim(0, 15.5)
+    ax.set_xlim(0, 18)
     ax.grid(axis="y", visible=False)
 
     ax.axvline(pooled, color=INK_2, linestyle=(0, (4, 3)), linewidth=1.2, zorder=1)
@@ -122,7 +139,7 @@ def chart_by_study(studies):
                f"{len(studies)} studies from Abel (1998), Table 11.1. Pooled rate = {cases} cases / "
                f"{births:,} births = {pooled:.2f} per 1,000. Grey numbers: FAS cases / births.\n"
                "Studies with 0 cases still have an upper bound: small samples cannot rule out "
-               "rates of several per 1,000.\nPlaces from Table 11.4.csv.")
+               "rates of several per 1,000.\nPlaces from Table 11.4.csv.\n" + duplicates_note())
     fig.savefig(OUT_BY_STUDY, dpi=150, facecolor=SURFACE)
     plt.close(fig)
     print(f"Saved {OUT_BY_STUDY}")

@@ -1,41 +1,41 @@
-Country,City,Study (source),Per capita consumption (liters),Race and socioeconomic status,Sample size,Number of FAS cases,"Estimated incidence per 1,000",Notes,Corrections
-Australia,,"Bell & Lumley, 1989",10,Caucasian/middle class,8884,0,0.00,,
-Australia,,"Gibson et al., 1983",,Caucasian/middle class,7301,0,0.00,FAS cases footnote b (Gibson: personal communication),
-Australia,,"Lumley et al., 1985",,Cross-sectional,14923,0,0.00,,
-Australia,,"Walpole et al., 1990",,Caucasian/middle class,605,0,0.00,,
-Canada,,"Fried & O'Connell, 1987",7.8,Caucasian/middle class,600,0,0.00,,
-Denmark,Odense,"Ogston & Parry, 1992",9.6,Caucasian/cross-sectional,286,0,0.00,,"City added: Odense, per the chapter text's list of EUROMAC sites (not printed in Table 11.1)"
-France,,"Rostand et al., 1990",13.0,—,684,2,2.92,,
-Germany,,"Ogston & Parry, 1992",10.5,Caucasian/cross-sectional,999,0,0.00,,
-Italy,,"Primatesta et al., 1993",10.0,Cross-sectional,1516,0,0.00,,
-Netherlands,,"Verkerk et al., 1993",8.3,—,3447,0,0.00,FAS cases footnote c (Verkerk: personal communication),
-Portugal,,"Ogston & Parry, 1992",10.5,Caucasian/cross-sectional,430,0,0.00,,
-Spain,,"Bolumar et al., 1994",13.0,Caucasian/cross-sectional,1004,0,0.00,,
-Spain,Vizcaya,"Ogston & Parry, 1992",,Caucasian/cross-sectional,866,0,0.00,,"City added: Vizcaya - its sample size (866) matches the Vizcaya centre in Ogston & Parry, Int J Epidemiol 21 Suppl 1:S45-S71, 1992, Tables 6-7"
-Spain,Guipuzcoa,"Ogston & Parry, 1992",,Caucasian/cross-sectional,793,0,0.00,,"City added: Guipuzcoa - its sample size (793) matches the Guipuzcoa centre in Ogston & Parry, Int J Epidemiol 21 Suppl 1:S45-S71, 1992, Tables 6-7"
-Sweden,,"Larsson, 1983",5.4,Caucasian/Low SES,464,1,2.16,,"Recomputed: 1 / 464 x 1,000 = 2.16; printed 1.43 - the two printed Larsson rates (1.43, 2.20) are roughly the computed pair (2.16, 1.49) reversed, but neither matches exactly"
-Sweden,,"Larsson et al., 1983",,Caucasian,669,1,1.49,,"Recomputed: 1 / 669 x 1,000 = 1.49; printed 2.20 - the two printed Larsson rates (1.43, 2.20) are roughly the computed pair (2.16, 1.49) reversed, but neither matches exactly"
-Switzerland,,"Fricker et al., 1985",11.0,Caucasian,996,0,0.00,,
-Switzerland,,"Halperin et al., 1985",,Caucasian,541,0,0.00,FAS cases footnote d (Halperin: personal communication),
-United Kingdom,,"Wright et al., 1983",7.3,Caucasian/middle class,900,0,0.00,"FAS cases footnote a (Barrison et al., Adverse effects of alcohol in pregnancy. British Journal of Addiction, 80, 11-22, 1985)",
-United Kingdom,,"Plant, 1985",,Caucasian/low SES,1008,0,0.00,FAS cases footnote e (Plant: personal communication),
-United Kingdom,,"Waterson & Murray-Lyon, 1989",,Cross-sectional,2266,0,0.00,FAS cases footnote f (Waterson: personal communication),
-United Kingdom,,"Primatesta et al., 1993",,Cross-sectional,996,0,0.00,,
-United Kingdom,,"Sulaiman et al., 1988",,Cross-sectional,901,0,0.00,FAS cases footnote g (Florey: personal communication),"Footnote g (""Florey: personal communication"") - Florey is a co-author of Sulaiman et al., so this is consistent"
-United States,Boston,"Hingson et al., 1982",7.3,Low/African American (inner city),1690,1,0.59,,
-United States,Boston,"Ouellette et al., 1977",,Low/African American (inner city),322,1,3.11,FAS cases footnote * (both cases African American and on welfare),"Sample size changed from 633 (printed) to 322: 633 women were enrolled at Boston City Hospital, but only 322 infants were delivered and examined by the study (180 undelivered at close, 21 miscarried, 7 therapeutic abortions, 84 lost to follow-up; Ouellette et al. 1977, Results). The paper itself reports no FAS case (""a specific pattern of anomalies was not noted, in contrast to previous reports in which a 'fetal alcohol syndrome' has been reported"", Discussion); the 1 case printed in Table 11.1 is not from this paper and is kept as printed. See sources/papers/ (ouellette1977.pdf)"
-United States,Boston,"Rosett et al., 1978",,Low,322,0,0.00,,
-United States,Cleveland,"Sokol et al., 1980",,Low/African American (inner city),12127,5,0.41,,
-United States,Cleveland,"Sokol et al., 1986",,Low/African American (inner city),8331,25,3.00,,
-United States,Denver,"Tennes & Blackard, 1980",,Caucasian/middle class,278,0,0.00,,
-United States,Detroit,"Sokol et al., 1993",,Low/African American (inner city),14707,57,3.88,,"Misprint: printed ""Sokol et al,. 1993""; Recomputed: 57 / 14,707 x 1,000 = 3.88; printed 3.90; Footnote h (""Marier, personal communication"") is listed but not attached to any row; probably meant for this row - Table 11.4 credits Martier for the Detroit figures - and ""Marier"" is likely a misprint for Martier"
-United States,Loma Linda,"Kuzma & Sokol, 1982",,Caucasian/middle class,5093,0,0.00,FAS cases footnote i (Sokol: personal communication),"Printed ""Loma Linda"" kept as the City; the study setting is four hospitals in the Riverside-San Bernardino-Ontario area of Southern California (Kuzma & Sokol 1982, Methods) - charts take the place from Table 11.4.csv"
-United States,Pittsburgh,"Day et al., 1989",,Low SES (50% African American),595,0,0.00,,
-United States,Pittsburgh,"Cornelius et al., 1994",,Low SES,391,0,0.00,FAS cases footnote j (Cornelius: personal communication),
-United States,Seattle,"Hanson et al., 1978",,Caucasian/middle class,1529,2,1.31,"Study footnote ** (Source: E. L. Abel, An update on incidence of FAS: FAS is not an equal opportunity birth defect, Neurotoxicology and Teratology (1995), 17, 438)",
-United States,Seattle,"Little, 1977",,Caucasian/middle class,263,0,0.00,,"Misprint: printed ""Causcasian""; Sample size changed from 801 (printed) to 263: 801 women agreed to take part, but the paper examined for FAS only the analysed sample of 263 infants (""all were examined for fetal alcohol syndrome ... No cases of the syndrome were found""; Little 1977, Results). The 0 cases therefore rest on 263 births, not 801; see sources/papers/ (little1977.pdf)"
-Number of FAS cases Totals,,,,,,95.00,,,"Checked: 95 cases in 97,576 births across 35 studies - matches"
-"Rate per 1,000",,,,,,0.97,,,"Checked: 95 / 97,576 x 1,000 = 0.97 - matches"
-"Average rate per study (based on estimated incidence per 1,000)",,,,,,0.50,,,Recomputed with the corrected rates: 0.495; printed 0.50 (0.495 with the printed rates)
-"Median rate per study (based on estimated incidence per 1,000)",,,,,,0.00,,,Checked: 0.00 - matches
-Modal rate per study,,,,,,0.00,,,Checked: 0.00 - matches
+Country,City,Study (source),Per capita consumption (liters),Race and socioeconomic status,Sample size,Number of FAS cases,"Estimated incidence per 1,000",Notes,Corrections,Duplicate of
+Australia,,"Bell & Lumley, 1989",10,Caucasian/middle class,8884,0,0.00,,,
+Australia,,"Gibson et al., 1983",,Caucasian/middle class,7301,0,0.00,FAS cases footnote b (Gibson: personal communication),,
+Australia,,"Lumley et al., 1985",,Cross-sectional,14923,0,0.00,,,
+Australia,,"Walpole et al., 1990",,Caucasian/middle class,605,0,0.00,,,
+Canada,,"Fried & O'Connell, 1987",7.8,Caucasian/middle class,600,0,0.00,,,
+Denmark,Odense,"Ogston & Parry, 1992",9.6,Caucasian/cross-sectional,286,0,0.00,,"City added: Odense, per the chapter text's list of EUROMAC sites (not printed in Table 11.1)",
+France,,"Rostand et al., 1990",13.0,—,684,2,2.92,,,
+Germany,,"Ogston & Parry, 1992",10.5,Caucasian/cross-sectional,999,0,0.00,,,
+Italy,,"Primatesta et al., 1993",10.0,Cross-sectional,1516,0,0.00,,,
+Netherlands,,"Verkerk et al., 1993",8.3,—,3447,0,0.00,FAS cases footnote c (Verkerk: personal communication),,
+Portugal,,"Ogston & Parry, 1992",10.5,Caucasian/cross-sectional,430,0,0.00,,,
+Spain,,"Bolumar et al., 1994",13.0,Caucasian/cross-sectional,1004,0,0.00,,,
+Spain,Vizcaya,"Ogston & Parry, 1992",,Caucasian/cross-sectional,866,0,0.00,,"City added: Vizcaya - its sample size (866) matches the Vizcaya centre in Ogston & Parry, Int J Epidemiol 21 Suppl 1:S45-S71, 1992, Tables 6-7",
+Spain,Guipuzcoa,"Ogston & Parry, 1992",,Caucasian/cross-sectional,793,0,0.00,,"City added: Guipuzcoa - its sample size (793) matches the Guipuzcoa centre in Ogston & Parry, Int J Epidemiol 21 Suppl 1:S45-S71, 1992, Tables 6-7",
+Sweden,,"Larsson, 1983",5.4,Caucasian/Low SES,464,1,2.16,,"Recomputed: 1 / 464 x 1,000 = 2.16; printed 1.43 - the two printed Larsson rates (1.43, 2.20) are roughly the computed pair (2.16, 1.49) reversed, but neither matches exactly",
+Sweden,,"Larsson et al., 1983",,Caucasian,669,1,1.49,,"Recomputed: 1 / 669 x 1,000 = 1.49; printed 2.20 - the two printed Larsson rates (1.43, 2.20) are roughly the computed pair (2.16, 1.49) reversed, but neither matches exactly",
+Switzerland,,"Fricker et al., 1985",11.0,Caucasian,996,0,0.00,,,
+Switzerland,,"Halperin et al., 1985",,Caucasian,541,0,0.00,FAS cases footnote d (Halperin: personal communication),,
+United Kingdom,,"Wright et al., 1983",7.3,Caucasian/middle class,900,0,0.00,"FAS cases footnote a (Barrison et al., Adverse effects of alcohol in pregnancy. British Journal of Addiction, 80, 11-22, 1985)",,
+United Kingdom,,"Plant, 1985",,Caucasian/low SES,1008,0,0.00,FAS cases footnote e (Plant: personal communication),,
+United Kingdom,,"Waterson & Murray-Lyon, 1989",,Cross-sectional,2266,0,0.00,FAS cases footnote f (Waterson: personal communication),,
+United Kingdom,,"Primatesta et al., 1993",,Cross-sectional,996,0,0.00,,,
+United Kingdom,,"Sulaiman et al., 1988",,Cross-sectional,901,0,0.00,FAS cases footnote g (Florey: personal communication),"Footnote g (""Florey: personal communication"") - Florey is a co-author of Sulaiman et al., so this is consistent",
+United States,Boston,"Hingson et al., 1982",7.3,Low/African American (inner city),1690,1,0.59,,,
+United States,Boston,"Ouellette et al., 1977",,Low/African American (inner city),322,1,3.11,FAS cases footnote * (both cases African American and on welfare),"Sample size changed from 633 (printed) to 322: 633 women were enrolled at Boston City Hospital, but only 322 infants were delivered and examined by the study (180 undelivered at close, 21 miscarried, 7 therapeutic abortions, 84 lost to follow-up; Ouellette et al. 1977, Results). The paper itself reports no FAS case (""a specific pattern of anomalies was not noted, in contrast to previous reports in which a 'fetal alcohol syndrome' has been reported"", Discussion); the 1 case printed in Table 11.1 is not from this paper and is kept as printed. See sources/papers/ (ouellette1977.pdf)",
+United States,Boston,"Rosett et al., 1978",,Low,322,0,0.00,,"Same cohort as Ouellette et al., 1977 and therefore excluded from pooled rates and charts: Rosett et al. 1978 (Obstet Gynecol 51:41-46, PubMed 619337) report the Boston City Hospital prenatal clinic sample in which ""a pediatric neurologist independently examined 322 offspring, including 42 whose mothers were heavy drinkers"", 15 of whom reduced drinking in the third trimester and 27 did not (abstract) - the same 322 infants, 42 heavy drinkers and 15/27 split as Ouellette et al. 1977. Table 11.1 counts this cohort twice: 633 enrolled with 1 case under Ouellette, 322 examined with 0 cases under Rosett","Ouellette et al., 1977"
+United States,Cleveland,"Sokol et al., 1980",,Low/African American (inner city),12127,5,0.41,,,
+United States,Cleveland,"Sokol et al., 1986",,Low/African American (inner city),8331,25,3.00,,,
+United States,Denver,"Tennes & Blackard, 1980",,Caucasian/middle class,278,0,0.00,,,
+United States,Detroit,"Sokol et al., 1993",,Low/African American (inner city),14707,57,3.88,,"Misprint: printed ""Sokol et al,. 1993""; Recomputed: 57 / 14,707 x 1,000 = 3.88; printed 3.90; Footnote h (""Marier, personal communication"") is listed but not attached to any row; probably meant for this row - Table 11.4 credits Martier for the Detroit figures - and ""Marier"" is likely a misprint for Martier",
+United States,Loma Linda,"Kuzma & Sokol, 1982",,Caucasian/middle class,5093,0,0.00,FAS cases footnote i (Sokol: personal communication),"Printed ""Loma Linda"" kept as the City; the study setting is four hospitals in the Riverside-San Bernardino-Ontario area of Southern California (Kuzma & Sokol 1982, Methods) - charts take the place from Table 11.4.csv",
+United States,Pittsburgh,"Day et al., 1989",,Low SES (50% African American),595,0,0.00,,,
+United States,Pittsburgh,"Cornelius et al., 1994",,Low SES,391,0,0.00,FAS cases footnote j (Cornelius: personal communication),,
+United States,Seattle,"Hanson et al., 1978",,Caucasian/middle class,1529,2,1.31,"Study footnote ** (Source: E. L. Abel, An update on incidence of FAS: FAS is not an equal opportunity birth defect, Neurotoxicology and Teratology (1995), 17, 438)",,
+United States,Seattle,"Little, 1977",,Caucasian/middle class,263,0,0.00,,"Misprint: printed ""Causcasian""; Sample size changed from 801 (printed) to 263: 801 women agreed to take part, but the paper examined for FAS only the analysed sample of 263 infants (""all were examined for fetal alcohol syndrome ... No cases of the syndrome were found""; Little 1977, Results). The 0 cases therefore rest on 263 births, not 801; see sources/papers/ (little1977.pdf)",
+Number of FAS cases Totals,,,,,,95.00,,,"Checked: 95 cases in 97,576 births across 35 studies - matches",
+"Rate per 1,000",,,,,,0.97,,,"Checked: 95 / 97,576 x 1,000 = 0.97 - matches",
+"Average rate per study (based on estimated incidence per 1,000)",,,,,,0.50,,,Recomputed with the corrected rates: 0.495; printed 0.50 (0.495 with the printed rates),
+"Median rate per study (based on estimated incidence per 1,000)",,,,,,0.00,,,Checked: 0.00 - matches,
+Modal rate per study,,,,,,0.00,,,Checked: 0.00 - matches,

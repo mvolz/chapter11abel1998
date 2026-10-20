@@ -21,7 +21,7 @@ import table_11_1_chart as t11
 from paths import CHARTS
 OUT_PNG = CHARTS / "Table 11.1 - FAS rate per 1,000 births by study, ranked.png"
 
-XMAX = 15.5
+XMAX = 18
 
 
 def chart(studies):
@@ -79,7 +79,7 @@ def chart(studies):
                f"continent. Pooled rate = {cases} cases / {births:,} births = {overall:.2f} per 1,000.\n"
                "Grey numbers: FAS cases / births. Studies with 0 cases are ordered by their upper "
                "bound, widest first: small samples cannot rule out\nrates of several per 1,000. "
-               "Places from Table 11.4.csv.")
+               "Places from Table 11.4.csv.\n" + t11.duplicates_note())
     fig.savefig(OUT_PNG, dpi=150, facecolor=fas.SURFACE)
     plt.close(fig)
     print(f"Saved {OUT_PNG}")

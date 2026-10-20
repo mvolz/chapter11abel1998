@@ -36,13 +36,12 @@ Study,Unverified,Europe,Italy,Milan,"Primatesta et al., 1993",,,1,0,1516,0.00,0.
 Study,Unverified,Europe,United Kingdom,London,"Waterson & Murray-Lyon, 1989",,,1,0,2266,0.00,0.00,1.63
 Study,Unverified,North America,United States,Detroit,"Sokol et al., 1993",,,1,57,14707,3.88,2.94,5.02
 Study,Unverified,North America,United States,Boston,"Hingson et al., 1982",,,1,1,1690,0.59,0.01,3.29
-Study,Unverified,North America,United States,Boston,"Rosett et al., 1978",,,1,0,322,0.00,0.00,11.39
 Study,Unverified,North America,United States,Pittsburgh,"Cornelius et al., 1994",,,1,0,391,0.00,0.00,9.39
 Study,Unverified,North America,United States,Pittsburgh,"Day et al., 1989",,,1,0,595,0.00,0.00,6.18
 Study,Unverified,North America,Canada,Ottawa,"Fried & O'Connell, 1987",,,1,0,600,0.00,0.00,6.13
 Class x region pooled,Unverified,Europe,,,,,,7,2,8367,0.24,0.03,0.86
-Class x region pooled,Unverified,North America,,,,,,6,58,18305,3.17,2.41,4.09
+Class x region pooled,Unverified,North America,,,,,,5,58,17983,3.23,2.45,4.17
 Class x region pooled,Unverified,Australia,,,,,,4,0,31713,0.00,0.00,0.12
-Class pooled,Unverified,,,,,,,17,60,58385,1.03,0.78,1.32
+Class pooled,Unverified,,,,,,,16,60,58063,1.03,0.79,1.33
 Overall pooled,Verified studies,,,,,,,18,35,38342,0.91,0.64,1.27
-Overall pooled,All studies,,,,,,,35,95,96727,0.98,0.79,1.20
+Overall pooled,All studies,,,,,,,34,95,96405,0.99,0.80,1.20

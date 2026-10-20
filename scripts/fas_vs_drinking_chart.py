@@ -230,7 +230,7 @@ def chart(matched, all_studies):
              ha="left", va="top", fontsize=9.5, color=fas.INK_2)
     fig.text(0.03, 0.012,
              "Drinking = any drinking during pregnancy, not heavy drinking. No matching drinking rate: "
-             "Sweden, Switzerland, Canada; Cleveland (Sokol 1980, 1986), Kuzma & Sokol, Rosett, Day, "
+             "Sweden, Switzerland, Canada; Cleveland (Sokol 1980, 1986), Kuzma & Sokol, Day, "
              "Hanson, Little;\nGibson, Walpole; Wright, Plant. Spain's two EUROMAC rows are matched to Vizcaya and "
              "Guipuzcoa by sample size. Odense's sample was selected for drinking; its rate is the "
              "corrected 78% (Abel printed 68%).",

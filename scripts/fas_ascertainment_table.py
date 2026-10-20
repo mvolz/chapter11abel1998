@@ -54,7 +54,9 @@ def load():
         s["ascertainment"] = c["Ascertainment"]
         s["confidence"] = c["Confidence"]
         s["region"] = pooled.region_of(s["country"])
-    assert not any(classes.values()), "unmatched class rows"
+    skipped = {dup for dup, _ in t11.DUPLICATES}
+    left = [k for k, v in classes.items() if v and k[1] not in skipped]
+    assert not left, f"unmatched class rows: {left}"
     return studies
 
 
@@ -99,7 +101,7 @@ def chart_by_study(studies):
         rows.append(("pool", (cls, group)))
 
     fig = plt.figure(figsize=(11, 15), facecolor=fas.SURFACE)
-    ax = fig.add_axes([0.36, 0.055, 0.6, 0.845])
+    ax = fig.add_axes([0.36, 0.055, 0.6, 0.835])
     fas.style_axes(ax)
     ys = np.arange(len(rows))[::-1]
     labels = []
@@ -141,7 +143,7 @@ def chart_by_study(studies):
         else:
             tick.set_color(region_colour(item))
     ax.set_ylim(-0.7, len(rows) - 0.3)
-    ax.set_xlim(0, 15.5)
+    ax.set_xlim(0, 18)
     ax.grid(axis="y", visible=False)
     ax.set_xlabel("Estimated FAS incidence per 1,000 births (dot) with exact 95% CI (bar)",
                   color=fas.INK_2, fontsize=10)
@@ -153,7 +155,7 @@ def chart_by_study(studies):
                f"({n_ver} classified from the papers, {len(studies) - n_ver} not yet checked).\n"
                + CLASS_DESC["Yes"] + ".\n" + CLASS_DESC["No"] + ".\n"
                "Diamonds: pooled rate per group = all cases / all births. Grey numbers: cases / births. "
-               "Classification and evidence in 'Table 11.1 - FAS ascertainment.csv'.")
+               "Classification and evidence in 'Table 11.1 - FAS ascertainment.csv'.\n" + t11.duplicates_note())
     fig.savefig(OUT_BY_STUDY, dpi=150, facecolor=fas.SURFACE)
     plt.close(fig)
     print(f"Saved {OUT_BY_STUDY}")
@@ -223,6 +225,7 @@ def chart_pooled(studies):
              ha="left", va="top", fontsize=9.5, color=fas.INK_2)
     clipped = [r for r in rows if r and r["ci"][1] > xmax]
     fig.text(0.03, 0.025, "Classification and evidence in 'Table 11.1 - FAS ascertainment.csv'. "
+             + t11.duplicates_note() + " "
              + ("CIs running past the axis: " + "; ".join(f'{r["name"]} ({r["studies"]}) to {r["ci"][1]:.2f}'
                                                            for r in clipped) + "." if clipped else ""),
              ha="left", fontsize=8, color=fas.MUTED)
