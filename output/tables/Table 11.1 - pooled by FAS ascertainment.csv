@@ -1,0 +1,48 @@
+Level,Screened for FAS,Region,Country,Place,Study (source),Confidence,Ascertainment,Studies,FAS cases,Births,"Rate per 1,000",95% CI low,95% CI high
+Study,Screened,Europe,Sweden,Stockholm,"Larsson, 1983",High,"Systematic: all newborns examined by a neonatologist, FAS sought",1,1,464,2.16,0.05,11.95
+Study,Screened,Europe,Sweden,Stockholm,"Larsson et al., 1983",High,"Systematic: each infant examined by a paediatrician after delivery, FAS sought",1,1,669,1.49,0.04,8.30
+Study,Screened,Europe,Switzerland,Geneva,"Halperin et al., 1985",Medium,Systematic: blind examination of 308 newborns against a list of FAS malformations,1,0,541,0.00,0.00,6.80
+Study,Screened,North America,United States,Cleveland,"Sokol et al., 1986",High,Systematic: every neonate examined blind to prenatal information; FAS defined by RSA Fetal Alcohol Study Group minimal criteria,1,25,8331,3.00,1.94,4.43
+Study,Screened,North America,United States,Seattle,"Hanson et al., 1978",High,"Systematic: dysmorphology evaluation by a paediatrician, double blind, of a selected 163 infants plus same-day controls",1,2,1529,1.31,0.16,4.72
+Study,Screened,North America,United States,Seattle,"Little, 1977",High,Systematic: all 263 infants examined for FAS by a physician trained to recognise it,1,0,263,0.00,0.00,13.93
+Study,Screened,North America,United States,Denver,"Tennes & Blackard, 1980",High,Systematic: standardised examination of all 278 infants for minor physical anomalies associated with FAS,1,0,278,0.00,0.00,13.18
+Class x region pooled,Screened,Europe,,,,,,3,2,1674,1.19,0.14,4.31
+Class x region pooled,Screened,North America,,,,,,4,27,10401,2.60,1.71,3.77
+Class pooled,Screened,,,,,,,7,29,12075,2.40,1.61,3.45
+Study,Not screened,Europe,Denmark,Odense,"Ogston & Parry, 1992",Medium,Routine clinical recognition: congenital anomalies recorded by centre using EUROCAT codes; no FAS examination protocol,1,0,286,0.00,0.00,12.82
+Study,Not screened,Europe,Portugal,Porto,"Ogston & Parry, 1992",Medium,Routine clinical recognition: as Odense,1,0,430,0.00,0.00,8.54
+Study,Not screened,Europe,Spain,Vizcaya/Guipuzcoa,"Ogston & Parry, 1992",Medium,Routine clinical recognition: as Odense,1,0,793,0.00,0.00,4.64
+Study,Not screened,Europe,Spain,Vizcaya/Guipuzcoa,"Ogston & Parry, 1992",Medium,Routine clinical recognition: as Odense,1,0,866,0.00,0.00,4.25
+Study,Not screened,Europe,United Kingdom,London,"Wright et al., 1983",High,Not examined for FAS: outcome was birth weight; no FAS examination reported,1,0,900,0.00,0.00,4.09
+Study,Not screened,Europe,Germany,Berlin,"Ogston & Parry, 1992",Medium,Routine clinical recognition: as Odense,1,0,999,0.00,0.00,3.69
+Study,Not screened,Europe,Spain,Valencia,"Bolumar et al., 1994",Medium,"Routine clinical recognition: EUROMAC Valencia centre, as Odense",1,0,1004,0.00,0.00,3.67
+Study,Not screened,Europe,Netherlands,,"Verkerk et al., 1993",High,Not examined for FAS: national midwife survey of birth weight; the zero is a personal communication to Abel,1,0,3447,0.00,0.00,1.07
+Study,Not screened,North America,United States,Cleveland,"Sokol et al., 1980",High,"Routine clinical recognition: FAS recorded by attending neonatologists in a medical-record database, no study examination",1,5,12127,0.41,0.13,0.96
+Study,Not screened,North America,United States,Southern California,"Kuzma & Sokol, 1982",Medium,Not examined for FAS: infants measured in the nursery by trained nurses blind to maternal data; FAS not mentioned,1,0,5093,0.00,0.00,0.72
+Class x region pooled,Not screened,Europe,,,,,,8,0,8725,0.00,0.00,0.42
+Class x region pooled,Not screened,North America,,,,,,2,5,17220,0.29,0.09,0.68
+Class pooled,Not screened,,,,,,,10,5,25945,0.19,0.06,0.45
+Study,Unverified,Australia,Australia,Perth,"Walpole et al., 1990",,,1,0,605,0.00,0.00,6.08
+Study,Unverified,Australia,Australia,Adelaide,"Gibson et al., 1983",,,1,0,7301,0.00,0.00,0.51
+Study,Unverified,Australia,Australia,Victoria (state),"Bell & Lumley, 1989",,,1,0,8884,0.00,0.00,0.42
+Study,Unverified,Australia,Australia,Tasmania (state),"Lumley et al., 1985",,,1,0,14923,0.00,0.00,0.25
+Study,Unverified,Europe,France,Roubaix,"Rostand et al., 1990",,,1,2,684,2.92,0.35,10.52
+Study,Unverified,Europe,United Kingdom,Dundee,"Sulaiman et al., 1988",,,1,0,901,0.00,0.00,4.09
+Study,Unverified,Europe,Switzerland,Aarau,"Fricker et al., 1985",,,1,0,996,0.00,0.00,3.70
+Study,Unverified,Europe,United Kingdom,Southampton,"Primatesta et al., 1993",,,1,0,996,0.00,0.00,3.70
+Study,Unverified,Europe,United Kingdom,Edinburgh,"Plant, 1985",,,1,0,1008,0.00,0.00,3.65
+Study,Unverified,Europe,Italy,Milan,"Primatesta et al., 1993",,,1,0,1516,0.00,0.00,2.43
+Study,Unverified,Europe,United Kingdom,London,"Waterson & Murray-Lyon, 1989",,,1,0,2266,0.00,0.00,1.63
+Study,Unverified,North America,United States,Detroit,"Sokol et al., 1993",,,1,57,14707,3.88,2.94,5.02
+Study,Unverified,North America,United States,Boston,"Ouellette et al., 1977",,,1,1,633,1.58,0.04,8.77
+Study,Unverified,North America,United States,Boston,"Hingson et al., 1982",,,1,1,1690,0.59,0.01,3.29
+Study,Unverified,North America,United States,Boston,"Rosett et al., 1978",,,1,0,322,0.00,0.00,11.39
+Study,Unverified,North America,United States,Pittsburgh,"Cornelius et al., 1994",,,1,0,391,0.00,0.00,9.39
+Study,Unverified,North America,United States,Pittsburgh,"Day et al., 1989",,,1,0,595,0.00,0.00,6.18
+Study,Unverified,North America,Canada,Ottawa,"Fried & O'Connell, 1987",,,1,0,600,0.00,0.00,6.13
+Class x region pooled,Unverified,Europe,,,,,,7,2,8367,0.24,0.03,0.86
+Class x region pooled,Unverified,North America,,,,,,7,59,18938,3.12,2.37,4.02
+Class x region pooled,Unverified,Australia,,,,,,4,0,31713,0.00,0.00,0.12
+Class pooled,Unverified,,,,,,,18,61,59018,1.03,0.79,1.33
+Overall pooled,Verified studies,,,,,,,17,34,38020,0.89,0.62,1.25
+Overall pooled,All studies,,,,,,,35,95,97038,0.98,0.79,1.20
